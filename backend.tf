@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-        bucket = "s3-class-with-evolve-cyber-willie"
+        bucket = "log-delivery-sept-2021"
         key = "terraform_vpc/us-east-1/class/dev/infrastructure.tfstate"
         region = "us-east-1"
     }
